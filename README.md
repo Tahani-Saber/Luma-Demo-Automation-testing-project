@@ -81,6 +81,7 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
   - Most of the automation tools are expensive
   - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
   - Huge maintenance in case of repeated changes in the requirements
+
 Not all the tools support all kinds of testing. Such as windows, web, mobility, performance/load testing.
 
 
