@@ -63,25 +63,25 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
 
 **Automated Testing Pros and Cons**
 - **Advantages of automated testing**
- - Automation is faster in execution then manual testing
- - It is cheaper compared to manual testing in the long run
- - Automated testing is more reliable
- - Automated testing is more powerful and versatile
- - Wider test coverage of application features
- - It is mostly used for regression testing
- - Ensure Consistency & Improves accuracy
- - It is reusable because the automation process can be recorded
- - Automation does not require human intervention. Test scripts can be run unattended
- - More cycle of execution can be achieved through automation
- - It helps to increase the test coverage
- - Early time to market
+  - Automation is faster in execution then manual testing
+  - It is cheaper compared to manual testing in the long run
+  - Automated testing is more reliable
+  - Automated testing is more powerful and versatile
+  - Wider test coverage of application features
+  - It is mostly used for regression testing
+  - Ensure Consistency & Improves accuracy
+  - It is reusable because the automation process can be recorded
+  - Automation does not require human intervention. Test scripts can be run unattended
+  - More cycle of execution can be achieved through automation
+  - It helps to increase the test coverage
+  - Early time to market
 
 - **Disadvantages of Automated Testing**
- - It is recommended only for stable products
- - Automation testing is expensive initially
- - Most of the automation tools are expensive
- - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
- - Huge maintenance in case of repeated changes in the requirements
+  - It is recommended only for stable products
+  - Automation testing is expensive initially
+  - Most of the automation tools are expensive
+  - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
+  - Huge maintenance in case of repeated changes in the requirements
 
 
 
