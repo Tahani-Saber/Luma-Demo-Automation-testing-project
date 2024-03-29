@@ -28,7 +28,29 @@ Successive development cycles will require execution of same test suite repeated
 | It can be done in parallel and reduce test execution time. | Its not an easy task to execute test cases in parallel in manual testing. We need more human resources to do this and becomes more expensive. |
 | Programming knowledge is a must in automation testing | Programming knowledge is not required to do manual testing. |
 | Build verification testing (BVT) is highly recommended | Build verification testing (BVT) is not recommended |
-| Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |
+| Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |  
+
+**Which Test Cases To Automate?**:
+Test Cases to automate are as follows
+- Data-driven test cases
+- Test cases with higher complexity
+- Test case with many database updates
+- The test execution rate is high
+- Smoke/Critical tests
+- Tests with several combinations
+- Graph test cases
+- Higher manual execution time
+
+**Which Test Cases Not To Be Automated?**:
+Types of tests need to be performed manually are as follows
+- Subjective Validation
+- New Functionalities
+- Strategic Development
+- User Experience
+- Complex Functionality
+- Quality Control
+- Low return on investment
+- Installation and setup testing
 
 
 
