@@ -75,7 +75,6 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
   - More cycle of execution can be achieved through automation
   - It helps to increase the test coverage
   - Early time to market
-
 - **Disadvantages of Automated Testing**
   - It is recommended only for stable products
   - Automation testing is expensive initially
