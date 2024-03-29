@@ -30,7 +30,7 @@ Successive development cycles will require execution of same test suite repeated
 | Build verification testing (BVT) is highly recommended | Build verification testing (BVT) is not recommended |
 | Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |  
 
-**Which Test Cases To Automate?**:
+**Which Test Cases To Automate?**:  
 Test Cases to automate are as follows
 - Data-driven test cases
 - Test cases with higher complexity
@@ -41,7 +41,7 @@ Test Cases to automate are as follows
 - Graph test cases
 - Higher manual execution time
 
-**Which Test Cases Not To Be Automated?**:
+**Which Test Cases Not To Be Automated?**:  
 Types of tests need to be performed manually are as follows
 - Subjective Validation
 - New Functionalities
@@ -52,6 +52,36 @@ Types of tests need to be performed manually are as follows
 - Low return on investment
 - Installation and setup testing
 
+**Why Test Automation?**
+Test Automation is the best way to increase the effectiveness, test coverage, and execution speed in software testing. Automated software testing is important due to the following reasons:  
+- Manual Testing of all workflows, all fields, all negative scenarios is time and money consuming
+- It is difficult to test for multilingual sites manually
+- Test Automation in software testing does not require Human intervention. You can run automated test unattended (overnight)
+- Test Automation increases the speed of test execution
+- Automation helps increase Test Coverage
+- Manual Testing can become boring and hence error-prone.
+
+**Automated Testing Pros and Cons**
+- **Advantages of automated testing**
+ - Automation is faster in execution then manual testing
+ - It is cheaper compared to manual testing in the long run
+ - Automated testing is more reliable
+ - Automated testing is more powerful and versatile
+ - Wider test coverage of application features
+ - It is mostly used for regression testing
+ - Ensure Consistency & Improves accuracy
+ - It is reusable because the automation process can be recorded
+ - Automation does not require human intervention. Test scripts can be run unattended
+ - More cycle of execution can be achieved through automation
+ - It helps to increase the test coverage
+ - Early time to market
+
+- **Disadvantages of Automated Testing**
+ - It is recommended only for stable products
+ - Automation testing is expensive initially
+ - Most of the automation tools are expensive
+ - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
+ - Huge maintenance in case of repeated changes in the requirements
 
 
 
