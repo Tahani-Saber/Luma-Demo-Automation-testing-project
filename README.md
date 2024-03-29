@@ -10,7 +10,7 @@ Software Testing is a method to check whether the actual software product matche
 Some prefer saying Software testing definition as a White Box and Black Box Testing. In simple terms, Software Testing means the Verification of Application 
 Under Test (AUT)
   
-**What is Automation Testing?**:  
+**What is Automation Testing?**  
 Automation Testing is a software testing technique that performs using special automated testing software tools to execute a test case suite. On the contrary,Manual Testing is performed by a human sitting in front of a computer carefully executing the test steps.  
 The automation testing software can also enter test data into the System Under Test, compare expected and actual results and generate detailed test reports.Software Test Automation demands considerable investments of money and resources.  
 Successive development cycles will require execution of same test suite repeatedly. Using a test automation tool, it’s possible to record this test suite and re-play it as required. Once the test suite is automated, no human intervention is required. This improved ROI of Test Automation. The goal of Automation is to reduce the number of test cases to be run manually and not to eliminate Manual Testing altogether.  
@@ -30,7 +30,7 @@ Successive development cycles will require execution of same test suite repeated
 | Build verification testing (BVT) is highly recommended | Build verification testing (BVT) is not recommended |
 | Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |  
 
-**Which Test Cases To Automate?**:  
+**Which Test Cases To Automate?**  
 Test Cases to automate are as follows  
 - Data-driven test cases
 - Test cases with higher complexity
@@ -41,7 +41,7 @@ Test Cases to automate are as follows
 - Graph test cases
 - Higher manual execution time
 
-**Which Test Cases Not To Be Automated?**:  
+**Which Test Cases Not To Be Automated?**  
 Types of tests need to be performed manually are as follows
 - Subjective Validation
 - New Functionalities
@@ -61,8 +61,8 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
 - Automation helps increase Test Coverage
 - Manual Testing can become boring and hence error-prone.
 
-**Automated Testing Pros and Cons**
-- **Advantages of automated testing**
+**Automated Testing Pros and Cons**:
+- **Advantages of automated testing**:
   - Automation is faster in execution then manual testing
   - It is cheaper compared to manual testing in the long run
   - Automated testing is more reliable
@@ -75,12 +75,13 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
   - More cycle of execution can be achieved through automation
   - It helps to increase the test coverage
   - Early time to market
-- **Disadvantages of Automated Testing**
+- **Disadvantages of Automated Testing**:
   - It is recommended only for stable products
   - Automation testing is expensive initially
   - Most of the automation tools are expensive
   - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
   - Huge maintenance in case of repeated changes in the requirements
+Not all the tools support all kinds of testing. Such as windows, web, mobility, performance/load testing.
 
 
 
