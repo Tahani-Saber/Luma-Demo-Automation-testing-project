@@ -112,28 +112,28 @@ Example: Quality center is the Test Management tool which in turn it will invoke
 Test Automation Maintenance Approach is an automation testing phase carried out to test whether the new functionalities added to the software are working fine or not. Maintenance in automation testing is executed when new automation scripts are added and need to be reviewed and maintained in order to improve the effectiveness of automation scripts with each successive release cycle.
 
 **Types of Automated Testing**
-  - Smoke Testing
-  - Unit Testing
-  - Integration Testing
-  - Functional Testing
-  - Keyword Testing
-  - Regression Testing
-  - Data Driven Testing
-  - Black Box Testing
+    - Smoke Testing
+    - Unit Testing
+    - Integration Testing
+    - Functional Testing
+    - Keyword Testing
+    - Regression Testing
+    - Data Driven Testing
+    - Black Box Testing
 
 **Test Automation Tools**  
-- Avo Assure
-- TestRigor
-- TestComplete
-- Selenium
-- HP UFT (aka QTP)
-- Watir
-- Telerik Test Studio
-- Silk Test
-- Cucumber
-- WorkSoft Certify
-- Kobiton
-- ACCELQ
+  - Avo Assure
+  - TestRigor
+  - TestComplete
+  - Selenium
+  - HP UFT (aka QTP)
+  - Watir
+  - Telerik Test Studio
+  - Silk Test
+  - Cucumber
+  - WorkSoft Certify
+  - Kobiton
+  - ACCELQ
 
 
 </details>
