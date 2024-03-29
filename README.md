@@ -31,7 +31,7 @@ Successive development cycles will require execution of same test suite repeated
 | Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |  
 
 **Which Test Cases To Automate?**:  
-Test Cases to automate are as follows
+Test Cases to automate are as follows  
 - Data-driven test cases
 - Test cases with higher complexity
 - Test case with many database updates
@@ -52,7 +52,7 @@ Types of tests need to be performed manually are as follows
 - Low return on investment
 - Installation and setup testing
 
-**Why Test Automation?**
+**Why Test Automation?**  
 Test Automation is the best way to increase the effectiveness, test coverage, and execution speed in software testing. Automated software testing is important due to the following reasons:  
 - Manual Testing of all workflows, all fields, all negative scenarios is time and money consuming
 - It is difficult to test for multilingual sites manually
