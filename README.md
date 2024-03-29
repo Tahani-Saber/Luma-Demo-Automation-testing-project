@@ -28,9 +28,7 @@ Successive development cycles will require execution of same test suite repeated
 | It can be done in parallel and reduce test execution time. | Its not an easy task to execute test cases in parallel in manual testing. We need more human resources to do this and becomes more expensive. |
 | Programming knowledge is a must in automation testing | Programming knowledge is not required to do manual testing. |
 | Build verification testing (BVT) is highly recommended | Build verification testing (BVT) is not recommended |
-| Human intervention is not much, so it is not  
-effective to do User Interface testing. | It involves human intervention, so it is highly  
-effective to do User Interface testing. |
+| Human intervention is not much, so it is not effective to do User Interface testing. | It involves human intervention, so it is highly effective to do User Interface testing. |
 
 
 
