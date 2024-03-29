@@ -82,8 +82,58 @@ Test Automation is the best way to increase the effectiveness, test coverage, an
   - It has some limitations such as handling captcha, getting visual aspects of UI such as fonts, color, sizes etc.,
   - Huge maintenance in case of repeated changes in the requirements
 
-Not all the tools support all kinds of testing. Such as windows, web, mobility, performance/load testing.
+Not all the tools support all kinds of testing. Such as windows, web, mobility, performance/load testing.  
 
+**Automated Testing Process**:  
+Following steps are followed in an Automation Process  
+- **Step 1) Test tool selection**
+Test Tool selection largely depends on the technology the Application Under Test is built on. For instance, QTP does not support Informatica. So QTP cannot be used for testing Informatica applications. It’s a good idea to conduct a Proof of Concept of Tool on AUT.
+- **Step 2) Define the scope of Automation**
+The scope of automation is the area of your Application Under Test which will be automated. Following points help determine scope:
+  - The features that are important for the business
+  - Scenarios which have a large amount of data
+  - Common functionalities across applications
+  - Technical feasibility
+  - The extent to which business components are reused
+  - The complexity of test cases
+  - Ability to use the same test cases for cross-browser testing
+- **Step 3) Planning, Design, and Development**
+During this phase, you create an Automation strategy & plan, which contains the following details-
+  - Automation tools selected
+  - Framework design and its features
+  - In-Scope and Out-of-scope items of automation
+  - Automation testbed preparation
+  - Schedule and Timeline of scripting and execution
+  - Deliverables of Automation Testing
+- **Step 4) Test Execution**
+Automation Scripts are executed during this phase. The scripts need input test data before there are set to run. Once executed they provide detailed test reports. Execution can be performed using the automation tool directly or through the Test Management tool which will invoke the automation tool.
+Example: Quality center is the Test Management tool which in turn it will invoke QTP for execution of automation scripts. Scripts can be executed in a single machine or a group of machines. The execution can be done during the night, to save time.
+- **Step 5) Test Automation Maintenance Approach**
+Test Automation Maintenance Approach is an automation testing phase carried out to test whether the new functionalities added to the software are working fine or not. Maintenance in automation testing is executed when new automation scripts are added and need to be reviewed and maintained in order to improve the effectiveness of automation scripts with each successive release cycle.
+
+**Types of Automated Testing**
+  - Smoke Testing
+  - Unit Testing
+  - Integration Testing
+  - Functional Testing
+  - Keyword Testing
+  - Regression Testing
+  - Data Driven Testing
+  - Black Box Testing
+
+**Test Automation Tools**  
+- Avo Assure
+- TestRigor
+- TestComplete
+- Selenium
+- HP UFT (aka QTP)
+- Watir
+- Telerik Test Studio
+- Silk Test
+- Cucumber
+- WorkSoft Certify
+- Kobiton
+- ACCELQ
 
 
 </details>
