@@ -1,9 +1,9 @@
 package C6_CartPage;
-
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.CartPage;
 import C1_BaseDriver.Getdriver;
@@ -20,46 +20,41 @@ public class CartPageTest {
         Select.SelectitemWithValid();
     }
     @Test(groups = {"includeXmlSceniaro"})
-    public void SelectitemOfCart() {
+    public void SelectitemOfCart() throws InterruptedException {
         driver=new Getdriver().getDriver();
         cart=new CartPage(driver);
+        Thread.sleep(1500);
         cart.MoveToCartPage();
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,400)", "");
-        cart.UpdateQTYField("4");
+        int Quantity= 5 ;
+        cart.UpdateQTYField(Integer.toString(Quantity));
         cart.UpdateShoppingCart();
+        Thread.sleep(1000);
     }
     @Test(groups = {"excludeXmlSceniaro"})
-    public void SelectitemOfCartWithZero() {
+    public void SelectitemOfCartWithZero() throws InterruptedException {
         driver=new Getdriver().getDriver();
         cart=new CartPage(driver);
+        Thread.sleep(1500);
         cart.MoveToCartPage();
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,400)", "");
         cart.UpdateQTYField("0");
         cart.UpdateShoppingCart();
+        Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"mage-error\"]")).getText(),"Please enter a number greater than 0 in this field.");
     }
     @Test(groups = {"excludeXmlSceniaro"})
-    public void SelectitemOfCartWithBlank() {
+    public void SelectitemOfCartWithBlank() throws InterruptedException {
         driver=new Getdriver().getDriver();
         cart=new CartPage(driver);
+        Thread.sleep(1500);
         cart.MoveToCartPage();
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,400)", "");
         cart.UpdateQTYField("");
         cart.UpdateShoppingCart();
+        Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"mage-error\"]")).getText(),"This is a required field.");
     }
     @AfterMethod(groups = {"excludeXmlSceniaro"})
-    public void AfterCartPageTest(){
+    public void AfterCartPageTest() {
         new Getdriver().quitDriver();
     }
 }
-//0:Please enter a number greater than 0 in this field.
-//blank:This is a required field.
-//valid url:https://demo-m2.bird.eu/checkout/#shipping
-
-    /*@DataProvider(name = "dataProvider1")
-    public Object[][] dataProviderMethod1() {
-        return new Object[][] {
-                {""}
-                ,{"0"}
-                ,{"4"}
-        };
-    }*///(dataProvider = "dataProvider1")String [][]s
