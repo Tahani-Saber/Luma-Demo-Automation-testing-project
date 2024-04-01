@@ -1,5 +1,4 @@
 package C3_SignIn;
-
 import C1_BaseDriver.Getdriver;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -15,15 +14,13 @@ public class SignInTest {
         driver=new Getdriver().getDriver();
         HomePage h=new HomePage(driver);
         h.PressSignIn();
-
     }
-
     @Test(groups = {"includeXmlSceniaro"})
     public void loginWithValidCredentials() {
         driver=new Getdriver().getDriver();
         loginPage=new SignInPage(driver);
-        loginPage.enterEmail("SohailaaaaaaaaaaaaaAaaaaaaaaAAAaa@gmail.com");
-        loginPage.enterPassword("Sohailaaaaaaaaaaaaaaaaaaaaaa.123");
+        loginPage.enterEmail("Tahani Yasmine@gmail.com");
+        loginPage.enterPassword("yasmine.123");
         loginPage.SignInButton();
         Assert.assertEquals(driver.getCurrentUrl(),"https://demo-m2.bird.eu/");
     }

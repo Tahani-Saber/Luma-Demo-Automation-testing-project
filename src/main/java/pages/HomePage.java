@@ -21,7 +21,7 @@ public class HomePage {
     //HomepageButtons
     By SignIn=By.xpath("//*[@id=\"html-body\"]/div[6]/header/div[1]/div/ul/li[2]/a");
     By CreateAnAccount=By.xpath("//*[@href=\"https://demo-m2.bird.eu/customer/account/create/\"]");
-    //By HomeButton=By.xpath("//*[@id=\\\"html-body\\\"]/div[6]/header/div[2]/a");
+
 
 
     //homepage

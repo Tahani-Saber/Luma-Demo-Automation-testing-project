@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SignInPage {
     WebDriver w;
-    public  SignInPage(WebDriver W){
+    public SignInPage(WebDriver W){
         this.w =W;
     }
     By EmailField = By.xpath("//*[@id=\"email\"]");
