@@ -125,7 +125,7 @@ Test Automation Maintenance Approach is an automation testing phase carried out 
   - Avo Assure
   - TestRigor
   - TestComplete
-  - Selenium
+  - *Selenium* **selected tool in this project**
   - HP UFT (aka QTP)
   - Watir
   - Telerik Test Studio
@@ -141,7 +141,25 @@ Test Automation Maintenance Approach is an automation testing phase carried out 
 <summary>Luma Demo Project</summary>
 
 ### Content for This Automation Project
+**Luma Ecommerce**: https://demo-m2.bird.eu/  
+**Objective**:  
+The primary objective of this automation testing is to ensure that the website "https://demo-m2.bird.eu/" functions as expected under various conditions. This includes testing the website's functionality, usability, performance, and security. The goal is to identify any issues or bugs that could affect the user experience or the website's performance.
 
+**Scope**:  
+The scope of this automation testing will cover the following areas:
+- Functional Testing: Verifying that all features and functionalities of the website work as intended. This includes testing the navigation, search functionality, user registration, login, and any other interactive elements.
+- Usability Testing: Ensuring that the website is easy to use and navigate. This involves testing the user interface, content, and workflow to ensure they are intuitive and user-friendly.
+  
+**Test Strategy**:
+- Automated Testing: Automated tests will be developed for the identified functionalities. This includes unit tests for individual components, integration tests for combined functionalities, and end-to-end tests 
+for complete user flows.
+- Continuous Integration: Automated tests will be integrated into a continuous integration pipeline to ensure that tests are run automatically whenever changes are made to the website's codebase.
+
+**Tools**
+The following tools will be used for automation testing:
+- Selenium WebDriver: For automating web applications for testing purposes. It supports multiple programming languages like Java, C#, Python, etc.
+- JUnit/TestNG: For unit testing and integration testing. These frameworks provide annotations to identify test methods and assertions to verify outcomes.
+- Maven/Gradle: For building and managing the project, including dependencies and running tests.
 
 </details>
 
