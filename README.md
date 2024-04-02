@@ -157,14 +157,14 @@ for complete user flows.
 
 **Tools**
 The following tools will be used for automation testing:
-- Selenium WebDriver: For automating web applications for testing purposes. It supports multiple programming languages like Java, C#, Python, etc.
-- JUnit/TestNG: For unit testing and integration testing. These frameworks provide annotations to identify test methods and assertions to verify outcomes.
+- Selenium WebDriver: For automating web applications for testing purposes. It supports multiple programming languages like Java,etc.
+- TestNG: For unit testing and integration testing. These frameworks provide annotations to identify test methods and assertions to verify outcomes.
 - Maven/Gradle: For building and managing the project, including dependencies and running tests.
 
 **Environment Setup**
 - Testing Tools: Selenium WebDriver for automating web applications, JUnit or TestNG for unit and integration testing.
 - Build Tools: Maven or Gradle for managing dependencies and building the project.
-- Operating System: Ensure the testing environment uses the same operating system as the production environment.**"Windows 10"**
+- Operating System: Ensure the testing environment uses the same operating system as the production environment.**"Windows 11"**
 - Browser Versions: If testing web applications, use the same browser versions as your users.**"Microsoft Edge
 Version 123.0.2420.65 (Official build) (64-bit)"**
 - Network Configuration: Ensure the testing environment has the same network configuration as the production environment to test network-related functionalities.

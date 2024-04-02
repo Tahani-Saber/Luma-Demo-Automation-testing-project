@@ -31,8 +31,8 @@ public class HomePageTest {
         home.EnterSearchIcon();
         //Wait
         Thread.sleep(500);
-        //sort By price
-        home.SortItems(1);
+        //sort
+        home.SortItems(2);
         //Wait
         Thread.sleep(500);
         //scroll
